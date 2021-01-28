@@ -1,0 +1,6 @@
+package abstractFactoryDesignPattern;
+
+public interface GUIFactory {
+    Button createButton();
+    Checkbox createCheckbox();
+}
